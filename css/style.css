@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 2px solid gold;
+    background-color: rgb(25, 124, 47);
+}
+header h2{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 25px;
+    color: white;
+    margin: 15px;
+}
+header .logo{
+    height: 50px;
+    width: 50px;
+}
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 580px;
+}
+.app .intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+}
+.app .intro h3,p{
+    margin-top: 10px;
+}
+.app .intro img{
+    height: 180px;
+    width: 180px;
+}
+.app .converter{
+    padding: 20px;
+    height: 200px;
+    background-color: rgb(62, 70, 67);
+    margin-top: 10px;
+}
+#currency-one , #currency-two{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 35px;
+    width: 80px;
+}
+#amount-one , #amount-two{
+    height: 25px ;
+    width: 200px;
+    background: transparent;
+    font-size: 30px;
+    text-align: right;
+    border: none;
+    color: white;
+}
+select:focus,
+input:focus,
+button:focus{
+    outline: 0;
+}
+.swap-rate{
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-between;
+}
+.swap-rate .rate{
+    font-size: 20px;
+    color: white;
+
+}
+
+.swap-rate .btn{
+    height: 35px;
+    width: 80px;
+    border: 2px solid rgb(125, 235, 125);
+    border-radius: 5px;
+}
+.swap-rate .btn:hover{
+    background-color:rgb(125, 235, 125);
+}
+footer{
+    height: 30px;
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: rgb(134, 223, 134);
+    text-align: center;
+}
