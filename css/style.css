@@ -24,7 +24,7 @@ header .logo{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 580px;
+    height: 570px;
 }
 .app .intro{
     display: flex;
